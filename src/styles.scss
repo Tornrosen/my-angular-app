@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+
+body {
+    background-color: lavenderblush;
+    color:darkmagenta;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.1em;
+    overflow-x: hidden;
+    margin: 0 auto; 
+}
+
+footer, header {
+    background-image: linear-gradient(lavender, lightpink);
+    padding: 2%;
+}
