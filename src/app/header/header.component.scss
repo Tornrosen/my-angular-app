@@ -1,0 +1,33 @@
+#headerContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav {
+    width: 500px;
+}
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    padding: 2%;
+}
+
+nav li a {
+    text-decoration: none;
+    color:darkmagenta;
+    padding: 9px 9px;
+}
+
+header {
+    background-image: linear-gradient(to left, lavender, lightpink);
+    padding: 0.5%;
+}
+
+.active {
+    border: solid darkmagenta 2px;
+    background-color: lavenderblush;
+    font-weight: bold;
+}

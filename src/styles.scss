@@ -3,12 +3,12 @@ body {
     background-color: lavenderblush;
     color:darkmagenta;
     font-family:'Courier New', Courier, monospace;
-    font-size: 1.1em;
+    font-size: 1em;
     overflow-x: hidden;
     margin: 0 auto; 
 }
 
-footer, header {
-    background-image: linear-gradient(lavender, lightpink);
-    padding: 2%;
+p, h1, h2 {
+    padding: 1%;
+    text-align: center;
 }
