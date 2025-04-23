@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
-
+moreSpringImg: string = "images/moreSpring.jpg";
 }

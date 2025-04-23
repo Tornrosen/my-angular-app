@@ -1,1 +1,21 @@
 <h2>Omvandling</h2>
+
+<h3>Konvertera mellan meter och fot</h3>
+<div id="metersOrFeet">
+<label for="meters">Skriv ditt nummer i meter! <input type=number id="meters" [(ngModel)]="meters"></label>
+<button id="feetBtn" (click)="convertToFeet()">Omvandla till fot</button>
+<p>Svar: {{feetAnswer|number:'1.0-2'}}</p><div id="feetAnswer"></div>
+<label for="feet">Skriv ditt nummer i fot! <input type=number id="feet" [(ngModel)]="feet"></label>
+<button id="metersBtn" (click)="convertToMeters()">Omvandla till meter</button>
+<p>Svar: {{metersAnswer|number:'1.0-2'}}</p><div id="metersAnswer"></div>
+</div>
+
+<h3>Konvertera mellan celsius och farenheit</h3>
+<div id="celciusOrFarenheit">
+    <label for="celcius">Skriv ditt nummer i celcius! <input type=number id="celcius" [(ngModel)]="celcius"></label>
+    <button id="farenheitBtn" (click)="convertToFarenheit()">Omvandla till farenheit</button>
+    <p>Svar: {{farenheitAnswer|number:'1.0-2'}}</p><div id="farenheitAnswer"></div>
+    <label for="farenheit">Skriv ditt nummer i farenheit! <input type=number id="farenheit" [(ngModel)]="farenheit"></label>
+    <button id="celciusBtn" (click)="convertToCelcius()">Omvandla till celcius</button>
+    <p>Svar: {{celciusAnswer|number:'1.0-2'}}</p><div id="celciusAnswer"></div> 
+</div>
