@@ -31,3 +31,20 @@ header {
     background-color: lavenderblush;
     font-weight: bold;
 }
+
+@media screen and (max-width: 1024px) {
+    #headerContainer {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    nav li {
+        display: block;
+        text-align: center;
+        font-size: 1.2em;
+    }
+    nav {
+        width: 100%;
+    }
+}

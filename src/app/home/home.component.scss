@@ -10,3 +10,35 @@ img {
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 1024px) {
+    #moreSpring {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    #spring {
+        display: none;
+    }
+    #headerDiv {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
+          ), url("springMobile.jpg")
+    }
+    h2 {
+        color: lightpink;
+    }
+
+    #flexContainer {
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+          ), url("springMobile.jpg")
+    }
+    p {
+        color: lightpink;
+        font-weight: bold;
+    }
+}
