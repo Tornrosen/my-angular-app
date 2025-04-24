@@ -1,59 +1,12 @@
-# MyAngularApp
+# Moment 3 - Angular i kursen Programmering i TypeScript
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.8.
+Detta projekt utfördes med hjälp av Angular CLI, version 19.2.8.
 
-## Development server
+TypeScript användes för att skriva kod eftersom Angular bygger på det. Komponenter skapades av de tre undersidorna - startsidan, omvandlingssidan och omsidan. Komponenter skapades också av headermenyn och footern. I slutänden innehåller footern så lite material att det kan tyckas onödigt att skapa en egen komponent för den, men strukturen blir lättarbetad om man skulle göra ett större projekt i framtiden. 
 
-To start a local development server, run:
+Jag har importerat komponenter där det varit nödvändigt och även lagt till Angulars inbyggda funktionalitet  som exempelvis för routing, för att använda formulär och för att avrunda tal till två decimaler.
 
-```bash
-ng serve
-```
+Routingen skapades i app.routes.ts och global styling gjordes i styles.scss. Jag valde scss i början men har inte egentligen använt någon av dess funktioner, så jag kunde lika gärna ha skapat uppgiften med vanlig css. Jag har lagt mer tid på grundläggande saker i css. 
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Uppgiften har versionshanterats via Github och kommer laddas upp via Netlify.
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
