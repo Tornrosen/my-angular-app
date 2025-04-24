@@ -8,5 +8,5 @@ Jag har importerat komponenter där det varit nödvändigt och även lagt till A
 
 Routingen skapades i app.routes.ts och global styling gjordes i styles.scss. Jag valde scss i början men har inte egentligen använt någon av dess funktioner, så jag kunde lika gärna ha skapat uppgiften med vanlig css. Jag har lagt mer tid på grundläggande saker i css. 
 
-Uppgiften har versionshanterats via Github och kommer laddas upp via Netlify.
+Uppgiften har versionshanterats via Github och kommer laddas upp via GithubPages.
 
